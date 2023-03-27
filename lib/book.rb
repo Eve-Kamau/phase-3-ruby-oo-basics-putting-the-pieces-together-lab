@@ -20,3 +20,10 @@ puts booky.author
 puts booky.page_count
 puts booky.genre
 puts booky.turn_page
+
+kitabu = Book.new("The World According to Garp","Ismail Khalid",400,"Contemporary")
+puts kitabu.title
+puts kitabu.author
+puts kitabu.page_count
+puts kitabu.genre
+puts kitabu.turn_page
